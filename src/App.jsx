@@ -4,6 +4,7 @@ import { Button, Modal } from "react-bootstrap";
 import Persona from "./services/Persona";
 import List from "./components/List";
 import Create from "./components/Create";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [personas, setPersonas] = useState([]);
